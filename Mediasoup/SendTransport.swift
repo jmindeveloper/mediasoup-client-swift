@@ -24,7 +24,7 @@ public class SendTransport {
 		codec: String?,
 		appData: String?
 	) throws -> Producer {
-
+        printf("아 시발 좆같네")
 		guard let mediaKind = MediaKind(stringValue: track.kind) else {
 			throw MediasoupError.invalidParameters("Unknown media kind")
 		}
@@ -44,7 +44,7 @@ public class SendTransport {
 		codec: String?,
 		appData: String?
 	) throws -> Producer {
-
+        printf("아 시발 좆같네")
 		guard let mediaKind = MediaKind(stringValue: track.kind) else {
 			throw MediasoupError.invalidParameters("Unknown media kind")
 		}

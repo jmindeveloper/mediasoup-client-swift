@@ -19,6 +19,7 @@ public class Device {
 	}
 
 	public func load(with routerRTPCapabilities: String) throws {
+        print("와 시발 좆같네")
 		try convertMediasoupErrors {
 			try device.load(with: routerRTPCapabilities)
 		}
