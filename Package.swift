@@ -29,10 +29,5 @@ let package = Package(
 			url: "https://github.com/VLprojects/mediasoup-client-swift/releases/download/\(version)/Mediasoup.xcframework.zip",
 			checksum: mediasoupChecksum
 		),
-		.binaryTarget(
-			name: "WebRTC",
-			url: "https://github.com/VLprojects/mediasoup-client-swift/releases/download/\(version)/WebRTC.xcframework.zip",
-			checksum: webrtcChecksum
-		)
 	]
 )
