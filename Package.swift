@@ -16,8 +16,7 @@ let package = Package(
 		.library(
 			name: "Mediasoup",
 			targets: [
-				"Mediasoup",
-				"WebRTC"
+				"Mediasoup"
 			]
 		)
 	],
